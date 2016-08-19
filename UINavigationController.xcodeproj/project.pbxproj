@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		514D801C1D675270002C1E4A /* YellowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514D801B1D675270002C1E4A /* YellowVC.swift */; };
+		514D801E1D6753F9002C1E4A /* BlueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514D801D1D6753F9002C1E4A /* BlueVC.swift */; };
 		51786B9F1D65FCA0007B6EB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51786B9E1D65FCA0007B6EB8 /* AppDelegate.swift */; };
 		51786BA11D65FCA0007B6EB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51786BA01D65FCA0007B6EB8 /* ViewController.swift */; };
 		51786BA41D65FCA0007B6EB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51786BA21D65FCA0007B6EB8 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		514D801B1D675270002C1E4A /* YellowVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowVC.swift; sourceTree = "<group>"; };
+		514D801D1D6753F9002C1E4A /* BlueVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueVC.swift; sourceTree = "<group>"; };
 		51786B9B1D65FCA0007B6EB8 /* UINavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UINavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51786B9E1D65FCA0007B6EB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51786BA01D65FCA0007B6EB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				51786BA51D65FCA0007B6EB8 /* Assets.xcassets */,
 				51786BA71D65FCA0007B6EB8 /* LaunchScreen.storyboard */,
 				51786BAA1D65FCA0007B6EB8 /* Info.plist */,
+				514D801B1D675270002C1E4A /* YellowVC.swift */,
+				514D801D1D6753F9002C1E4A /* BlueVC.swift */,
 			);
 			path = UINavigationController;
 			sourceTree = "<group>";
@@ -262,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				514D801E1D6753F9002C1E4A /* BlueVC.swift in Sources */,
 				51786BA11D65FCA0007B6EB8 /* ViewController.swift in Sources */,
 				51786B9F1D65FCA0007B6EB8 /* AppDelegate.swift in Sources */,
+				514D801C1D675270002C1E4A /* YellowVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +524,7 @@
 				51786BC51D65FCA1007B6EB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51786BC61D65FCA1007B6EB8 /* Build configuration list for PBXNativeTarget "UINavigationControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +533,7 @@
 				51786BC81D65FCA1007B6EB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51786BC91D65FCA1007B6EB8 /* Build configuration list for PBXNativeTarget "UINavigationControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +542,7 @@
 				51786BCB1D65FCA1007B6EB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
